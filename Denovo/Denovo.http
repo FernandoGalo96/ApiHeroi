@@ -1,0 +1,6 @@
+@Denovo_HostAddress = http://localhost:5026
+
+GET {{Denovo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
