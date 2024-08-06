@@ -8,5 +8,5 @@ public class CreateHeroiDto
     public IEnumerable<HeroiBatalha> HeroiBatalhas { get; set; }
     public IEnumerable<Arma> Armas { get; set; }
 
-    public IdentidadeSecreta IdentidadeSecreta { get; set; }
+    public IdentidadesSecretas IdentidadeSecreta { get; set; }
 }

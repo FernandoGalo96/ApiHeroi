@@ -7,11 +7,11 @@ namespace Denovo.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class HeroiController : ControllerBase
+public class HeroisController : ControllerBase
 {
     private readonly IEfCoreRepository _context;
 
-    public HeroiController(IEfCoreRepository context)
+    public HeroisController(IEfCoreRepository context)
     {
         _context = context;
     }

@@ -9,12 +9,12 @@ namespace Denovo.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class BatalhaController : ControllerBase
+public class BatalhasController : ControllerBase
 {
     private readonly IEfCoreRepository _context;
     private readonly IMapper _mapper;
 
-    public BatalhaController(IEfCoreRepository context, IMapper mapper)
+    public BatalhasController(IEfCoreRepository context, IMapper mapper)
     {
         _context = context;
         _mapper = mapper;

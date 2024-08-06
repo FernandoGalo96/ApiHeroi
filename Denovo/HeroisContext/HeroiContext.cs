@@ -16,7 +16,7 @@ public class HeroiContext : DbContext
 
     public DbSet<HeroiBatalha> HeroisBatalhas { get; set; }
 
-    public DbSet<IdentidadeSecreta> IdentidadesSecretas { get; set; }
+    public DbSet<IdentidadesSecretas> IdentidadesSecretas { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

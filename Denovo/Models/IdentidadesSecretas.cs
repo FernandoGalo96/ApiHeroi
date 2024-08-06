@@ -1,6 +1,6 @@
 ﻿namespace Models;
 
-public class IdentidadeSecreta
+public class IdentidadesSecretas
 {
     public int Id { get; set; }
     public string Nome { get; set; }
